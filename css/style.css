@@ -90,13 +90,11 @@ h6,
     z-index: -1;
     opacity: 0;
 }
-
-.col-lg-4{
+.col-lg-4-custom{
     float: left;
     width: -webkit-fill-available;
-    margin: 0px 5px 20px 5px;
+    margin: 0 5px 20px 5px;
     page-break-inside: avoid;
-    break-inside: avoid;
     float: left;
 }
 
