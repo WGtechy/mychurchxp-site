@@ -44,7 +44,10 @@ h6,
 
 /*** Gradient Text & BG ***/
 .text-primary-gradient {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    /* background: linear-gradient(to bottom right, var(--primary), var(--secondary)); */
+    background: linear-gradient(-45deg, #1e0cb8 9%, rgb(144 61 173 / 83%) 70%, rgb(175 68 68) 100%, rgba(91 91 159) 12%);
+  background-size: 400% 400%;
+  animation: animate 15s ease infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
