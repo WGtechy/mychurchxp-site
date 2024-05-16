@@ -55,8 +55,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
                         <a href="/" class="nav-item nav-link ">Home</a>
-                        <a href="/#about" class="nav-item nav-link">About</a>
-                        <!-- <a href="/#pricing" class="nav-item nav-link">Pricing</a> -->
+                        <a href="/about" class="nav-item nav-link">About</a>
+                        <a href="/affiliate" class="nav-item nav-link">Affiliate program</a>
                         <!-- <a href="#review" class="nav-item nav-link">Review</a> -->
                         <a href="contact" class="nav-item nav-link active">Contact us</a>
                     </div>
@@ -82,25 +82,31 @@
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+                                            <input type="text" class="form-control" required id="name" placeholder="Your Name" name="name">
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                            <input type="email" class="form-control" id="email" required name="email" placeholder="Your Email">
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                                            <input type="text" class="form-control" id="phone" required placeholder="Phone" name="phone">
+                                            <label for="phone">Phone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" required placeholder="Subject" name="subject">
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" name="message"></textarea>
+                                            <textarea class="form-control" placeholder="Leave a message here" required id="message" style="height: 150px" name="message"></textarea>
                                             <label for="message">Message</label>
                                         </div>
                                     </div>
