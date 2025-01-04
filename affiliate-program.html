@@ -189,8 +189,22 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="phone" required placeholder="Phone" name="phone">
+                                            <input type="tel" class="form-control" id="phone" required placeholder="Phone" name="phone">
                                             <label for="phone">Phone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="username" required placeholder="username" name="username">
+                                            <label for="username">Username</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" pattern="(?=.*)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                            title="Your password must contain at least one number, one uppercase and lowercase letter, and at least 8 or more characters"
+                                            class="form-control" id="password" required placeholder="password" name="password">
+                                            <label for="password">Password</label>
                                         </div>
                                     </div>
                                     <div class="col-12 text-center">
